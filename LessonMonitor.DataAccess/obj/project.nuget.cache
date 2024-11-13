@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "879Rplb0oB6f9Qy/MA9HbTI1wvKPgVWSVQXnaTKSwqbzRrk6xy/lrmnhFcMGSmOqvfXI6/PBtehMVjwEsgDV6A==",
+  "dgSpecHash": "iz/lsSA8zvmLWDOxQ7zV+FVlhgNqrni+8IARTQqURS5dStXUs3zkQfRWU4bLkk2ZBiH4Qy3nmAgDpzJlPh2obw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess\\LessonMonitor.DataAccess.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\dezhu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -30,7 +28,7 @@
       "message": "Package 'System.Data.SqlClient' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        ".NETStandard,Version=v2.0"
+        ".NETStandard,Version=v2.1"
       ]
     },
     {
@@ -40,7 +38,7 @@
       "message": "Package 'System.Data.SqlClient' 4.8.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        ".NETStandard,Version=v2.0"
+        ".NETStandard,Version=v2.1"
       ]
     }
   ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LessonMonitor.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99212ca9435a3f01d78f728bcb8dc51264b9c522")]
 [assembly: System.Reflection.AssemblyProductAttribute("LessonMonitor.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LessonMonitor.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

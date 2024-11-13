@@ -1,0 +1,14 @@
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\bin\Debug\netstandard2.0\LessonMonitor.DataAccess.deps.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\bin\Debug\netstandard2.0\LessonMonitor.DataAccess.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\bin\Debug\netstandard2.0\LessonMonitor.DataAccess.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\bin\Debug\netstandard2.0\LessonMonitor.Core.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\bin\Debug\netstandard2.0\LessonMonitor.Core.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.csproj.AssemblyReference.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.AssemblyInfoInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.AssemblyInfo.cs
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.sourcelink.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMo.0C5FE817.Up2Date
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess\obj\Debug\netstandard2.0\LessonMonitor.DataAccess.pdb

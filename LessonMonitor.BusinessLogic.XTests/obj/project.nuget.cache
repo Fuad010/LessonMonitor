@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+LbxlDzLw0FC1jLoeZYgjeKoQKIsfHQRNbzJjVDPh2d9Ej/jpD4rgA8nzo1rqzXipcxl4VNfQ901RBOVv3bKpg==",
+  "dgSpecHash": "yQf7Di9d4Cmv9PGypRwK6I0176uB75iZCaqsQfFq/GFw4i7V9G2w8zozSaU5pxMFEpkKfkVFhPjma/APQCsydg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.BusinessLogic.XTests\\LessonMonitor.BusinessLogic.XTests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\dezhu\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
+    "C:\\Users\\dezhu\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",

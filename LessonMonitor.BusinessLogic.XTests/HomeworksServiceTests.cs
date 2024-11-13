@@ -2,6 +2,7 @@ using AutoFixture;
 using FluentAssertions;
 using LessonMonitor.Core;
 using LessonMonitor.Core.Exceptions;
+using LessonMonitor.Core.Repositories;
 using Moq;
 using System;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ using Xunit;
 
 namespace LessonMonitor.BusinessLogic.XTests
 {
-	public class HomeworksServiceTests
+    public class HomeworksServiceTests
 	{
 		private readonly Mock<IHomeworksRepository> _homeworksRespositoryMock;
 		private readonly HomeworksService _service;

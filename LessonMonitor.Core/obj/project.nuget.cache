@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "gojjZnIoXxHZ1QS8mSvT3DtYC2DpMOnbTn1gMVKMir7iFiPsY20dH26fuVlL2XYOCTQfyU2IlsxU0I3TC2BGgw==",
+  "dgSpecHash": "nsKYx8hrH53KNl7z0JOan4Dfl137Bp0acYFVV3WSVBrdNZ933xyyvaqzlxL3BcKlavdORLIIfBXfFOPP/oH20w==",
   "success": true,
   "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.Core\\LessonMonitor.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dezhu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\dezhu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []

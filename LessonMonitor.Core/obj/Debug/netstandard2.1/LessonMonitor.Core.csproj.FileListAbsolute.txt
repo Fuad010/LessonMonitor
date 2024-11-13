@@ -1,0 +1,11 @@
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\bin\Debug\netstandard2.1\LessonMonitor.Core.deps.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\bin\Debug\netstandard2.1\LessonMonitor.Core.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\bin\Debug\netstandard2.1\LessonMonitor.Core.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.csproj.AssemblyReference.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.AssemblyInfoInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.AssemblyInfo.cs
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.csproj.CoreCompileInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.sourcelink.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.Core\obj\Debug\netstandard2.1\LessonMonitor.Core.pdb

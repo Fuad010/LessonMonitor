@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HEmCOSUIQ5SupfJlb93awmrYESnTzM78qabBLJFwc+hfJno1SdbUkcCknKTYDKEC1S9YE5tsZEBsN+421OwJEQ==",
+  "dgSpecHash": "sldw/EX1Wcr7eadvX05cLD2wzxyTaLXuVjYj+zeP/EqsN0dGVK7Cy7M/rO+Q0HAnf6gccQGxGK8YyGOEs+NriA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj",
   "expectedPackageFiles": [

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "AutoFixture/4.17.0": {
         "type": "package",
         "dependencies": {
@@ -1961,7 +1961,7 @@
       },
       "LessonMonitor.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0"
         },
@@ -1974,7 +1974,7 @@
       },
       "LessonMonitor.DataAccess/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "LessonMonitor.Core": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
@@ -6385,7 +6385,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "AutoFixture >= 4.17.0",
       "LessonMonitor.DataAccess >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
@@ -6416,7 +6416,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6424,8 +6424,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess\\LessonMonitor.DataAccess.csproj": {
               "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess\\LessonMonitor.DataAccess.csproj"
@@ -6445,8 +6445,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "AutoFixture": {
             "target": "Package",

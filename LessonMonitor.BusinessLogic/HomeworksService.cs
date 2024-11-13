@@ -1,12 +1,13 @@
 using LessonMonitor.Core;
 using LessonMonitor.Core.Exceptions;
+using LessonMonitor.Core.Repositories;
 using LessonMonitor.Core.Services;
 using System;
 using System.Threading.Tasks;
 
 namespace LessonMonitor.BusinessLogic
 {
-	public class HomeworksService : IHomeworksService
+    public class HomeworksService : IHomeworksService
 	{
 		public const string HOMEWORK_IS_INVALID = "Homework is invalid!";
 		private readonly IHomeworksRepository _homeworksRepository;

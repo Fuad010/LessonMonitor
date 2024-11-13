@@ -1,4 +1,5 @@
 using LessonMonitor.Core;
+using LessonMonitor.Core.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LessonMonitor.DataAccess
 {
-	public class HomeworksRepository : IHomeworksRepository
+    public class HomeworksRepository : IHomeworksRepository
 	{
 		private string _connectionString;
 

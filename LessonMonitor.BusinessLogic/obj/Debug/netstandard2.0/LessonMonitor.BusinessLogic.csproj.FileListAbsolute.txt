@@ -1,0 +1,14 @@
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\bin\Debug\netstandard2.0\LessonMonitor.BusinessLogic.deps.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\bin\Debug\netstandard2.0\LessonMonitor.BusinessLogic.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\bin\Debug\netstandard2.0\LessonMonitor.BusinessLogic.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\bin\Debug\netstandard2.0\LessonMonitor.Core.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\bin\Debug\netstandard2.0\LessonMonitor.Core.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.AssemblyInfo.cs
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.sourcelink.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMo.6AD94E41.Up2Date
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.BusinessLogic\obj\Debug\netstandard2.0\LessonMonitor.BusinessLogic.pdb

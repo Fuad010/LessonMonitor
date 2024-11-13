@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "AutoFixture/4.17.0": {
         "type": "package",
         "dependencies": {
@@ -79,6 +79,19 @@
         "runtime": {
           "lib/netcoreapp2.1/FluentAssertions.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FluentValidation/11.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2053,8 +2066,9 @@
       },
       "LessonMonitor.BusinessLogic/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "FluentValidation": "11.10.0",
           "LessonMonitor.Core": "1.0.0"
         },
         "compile": {
@@ -2066,7 +2080,7 @@
       },
       "LessonMonitor.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "System.ComponentModel.Annotations": "5.0.0"
         },
@@ -2207,6 +2221,31 @@
         "lib/netstandard2.1/FluentAssertions.dll",
         "lib/netstandard2.1/FluentAssertions.pdb",
         "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "FluentValidation/11.10.0": {
+      "sha512": "qsJGSJDdZ8qiG+lVJ70PZfJHcEdq8UQZ/tZDXoj78/iHKG6lVKtMJsD11zyyv/IPc7rwqGqnFoFLTNzpo3IPYg==",
+      "type": "package",
+      "path": "fluentvalidation/11.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.10.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.CodeCoverage/16.7.1": {
@@ -6648,7 +6687,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "AutoFixture >= 4.17.0",
       "FluentAssertions >= 5.10.3",
       "LessonMonitor.BusinessLogic >= 1.0.0",
@@ -6681,7 +6720,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6689,8 +6728,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.BusinessLogic\\LessonMonitor.BusinessLogic.csproj": {
               "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.BusinessLogic\\LessonMonitor.BusinessLogic.csproj"
@@ -6710,8 +6749,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "AutoFixture": {
             "target": "Package",

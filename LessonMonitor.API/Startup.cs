@@ -1,5 +1,5 @@
 using LessonMonitor.BusinessLogic;
-using LessonMonitor.Core;
+using LessonMonitor.Core.Repositories;
 using LessonMonitor.Core.Services;
 using LessonMonitor.DataAccess.MSSQL;
 using LessonMonitor.DataAccess.MSSQL.Repositories;
@@ -30,11 +30,13 @@ namespace LessonMonitor.API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 			services.AddScoped<IHomeworksRepository, HomeworksRepository>();
 			services.AddScoped<IHomeworksService, HomeworksService>();
+
+			services.AddScoped<IMembersRepository, MembersRepository>();
+			services.AddScoped<IMembersService, MembersService>();
 
 			services.AddDbContext<LessonMonitorDbContext>(builder =>
 			{
@@ -48,7 +50,6 @@ namespace LessonMonitor.API
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure([NotNull] IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -58,18 +59,9 @@ namespace LessonMonitor.API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LessonMonitor.API v1"));
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            //app.UseMiddleware<MyMiddlewareComponent>();
-
-            //app.Use((httpContext, next) =>
-            //{
-            //    var task = next();
-
-            //    return task;
-            //});
 
             app.UseEndpoints(endpoints =>
             {
