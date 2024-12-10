@@ -18,7 +18,7 @@ namespace LessonMonitor.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Car>>> GetCars()
+        public async Task<ActionResult<IEnumerable<Car>>> GetAllCars()
         {
             var cars = await _carsService.GetAllCarsAsync();
             return Ok(cars);

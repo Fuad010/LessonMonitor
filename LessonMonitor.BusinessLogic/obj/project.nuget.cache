@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RJLz2MeR3nJlPOTljfFETeRxAH6c0lig22HMHhoub3S1efNB5oFW3K2maFUUlhuT6dNRsPC7OwtlGpnBQdq+Hg==",
+  "dgSpecHash": "UkxfHGp612o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.BusinessLogic\\LessonMonitor.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.BusinessLogic\\LessonMonitor.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dezhu\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"

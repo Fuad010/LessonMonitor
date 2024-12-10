@@ -7437,11 +7437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj",
+      "projectUniqueName": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj",
       "projectName": "LessonMonitor.DataAccess.MSSQL",
-      "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj",
+      "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj",
       "packagesPath": "C:\\Users\\dezhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\obj\\",
+      "outputPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7463,8 +7463,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.Core\\LessonMonitor.Core.csproj": {
-              "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.Core\\LessonMonitor.Core.csproj"
+            "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.Core\\LessonMonitor.Core.csproj": {
+              "projectPath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.Core\\LessonMonitor.Core.csproj"
             }
           }
         }
@@ -7509,7 +7509,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

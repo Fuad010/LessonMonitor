@@ -148,7 +148,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "LessonMonitor.Core.dll": {}
+          "LessonMonitor.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

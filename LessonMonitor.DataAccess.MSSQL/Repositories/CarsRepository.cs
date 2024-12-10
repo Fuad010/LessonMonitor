@@ -63,7 +63,7 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
         {
             var entityCar = await _context.Cars.FindAsync(id);
         
-            if(entityCar != null)
+            if(entityCar == null)
             {
                 return null;
             }

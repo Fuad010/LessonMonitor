@@ -12,3 +12,17 @@ C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMon
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMo.FB07199A.Up2Date
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.dll
 C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\bin\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.deps.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\bin\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\bin\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\bin\Debug\netstandard2.1\LessonMonitor.Core.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\bin\Debug\netstandard2.1\LessonMonitor.Core.pdb
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.csproj.AssemblyReference.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.AssemblyInfoInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.AssemblyInfo.cs
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.csproj.CoreCompileInputs.cache
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.sourcelink.json
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMo.FB07199A.Up2Date
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.dll
+C:\Users\dezhu\OneDrive\Рабочий стол\.net api\LessonMonitor\LessonMonitor.DataAccess.MSSQL\obj\Debug\netstandard2.1\LessonMonitor.DataAccess.MSSQL.pdb

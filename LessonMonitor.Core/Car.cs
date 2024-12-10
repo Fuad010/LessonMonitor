@@ -1,4 +1,7 @@
-﻿namespace LessonMonitor.Core
+﻿using System.Collections;
+using System.Collections.Generic;
+
+namespace LessonMonitor.Core
 {
     public class Car
     {
@@ -8,5 +11,6 @@
         public int Year { get; set; }
         public decimal PricePerDay { get; set; }
         public bool IsAvailable { get; set; }
+        public ICollection<CarImage> CarImages { get; set; } = new List<CarImage>();
     }
 }

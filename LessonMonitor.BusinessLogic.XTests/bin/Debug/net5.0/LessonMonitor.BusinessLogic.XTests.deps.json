@@ -1271,7 +1271,10 @@
           "LessonMonitor.Core": "1.0.0"
         },
         "runtime": {
-          "LessonMonitor.BusinessLogic.dll": {}
+          "LessonMonitor.BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "LessonMonitor.Core/1.0.0": {
@@ -1279,7 +1282,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "LessonMonitor.Core.dll": {}
+          "LessonMonitor.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LessonMonitor.DataAccess.MSSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0636f18bf6d2f525658b7cfca427850ab5adb948")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+977dfa5b0e07b0f5e5e6066b4ed19349bf7567af")]
 [assembly: System.Reflection.AssemblyProductAttribute("LessonMonitor.DataAccess.MSSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LessonMonitor.DataAccess.MSSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

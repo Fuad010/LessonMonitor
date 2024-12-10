@@ -1389,7 +1389,10 @@
           "LessonMonitor.Core": "1.0.0"
         },
         "runtime": {
-          "LessonMonitor.BusinessLogic.dll": {}
+          "LessonMonitor.BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "LessonMonitor.BusinessLogic.dll": {}
@@ -1400,7 +1403,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "LessonMonitor.Core.dll": {}
+          "LessonMonitor.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "LessonMonitor.Core.dll": {}
@@ -1412,7 +1418,10 @@
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
-          "LessonMonitor.DataAccess.dll": {}
+          "LessonMonitor.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "LessonMonitor.DataAccess.dll": {}
@@ -1425,7 +1434,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7"
         },
         "runtime": {
-          "LessonMonitor.DataAccess.MSSQL.dll": {}
+          "LessonMonitor.DataAccess.MSSQL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "LessonMonitor.DataAccess.MSSQL.dll": {}

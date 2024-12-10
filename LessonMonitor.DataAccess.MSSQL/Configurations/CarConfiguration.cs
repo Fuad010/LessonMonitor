@@ -2,52 +2,51 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-
 namespace LessonMonitor.DataAccess.MSSQL.Configurations
 {
     public class CarConfiguration : IEntityTypeConfiguration<Car>
     {
         public void Configure(EntityTypeBuilder<Car> builder)
         {
-            // Указание имени таблицы в базе данных
+            // Указание имени таблицы
             builder.ToTable("Cars");
 
-            // Указание первичного ключа
+            // Первичный ключ
             builder.HasKey(c => c.Id);
 
             // Конфигурация свойств
             builder.Property(c => c.Id)
                 .IsRequired()
-                .ValueGeneratedOnAdd(); // Автоинкремент (генерация значений при добавлении)
+                .ValueGeneratedOnAdd();
 
             builder.Property(c => c.Make)
                 .IsRequired()
-                .HasMaxLength(100); // Установка максимальной длины для поля "Make"
+                .HasMaxLength(100);
 
             builder.Property(c => c.Model)
                 .IsRequired()
-                .HasMaxLength(100); // Установка максимальной длины для поля "Model"
+                .HasMaxLength(100);
 
             builder.Property(c => c.Year)
                 .IsRequired()
-                .HasDefaultValue(0); // Установка значения по умолчанию для "Year"
+                .HasDefaultValue(0);
 
             builder.Property(c => c.PricePerDay)
                 .IsRequired()
-                .HasColumnType("decimal(18,2)"); // Указание типа данных "decimal" с точностью 18,2
+                .HasPrecision(18, 4);
 
             builder.Property(c => c.IsAvailable)
                 .IsRequired()
-                .HasDefaultValue(true); // Установка значения по умолчанию для "IsAvailable"
+                .HasDefaultValue(false);
 
-            // Настройка индексов, если это необходимо
-            builder.HasIndex(c => c.Make); // Индекс по столбцу "Make" для быстрого поиска
+            // Индексы
+            builder.HasIndex(c => c.Make);
 
-            // Опционально: определение связей с другими сущностями (если они есть)
-            // Пример связи с другой сущностью:
-            // builder.HasOne(c => c.SomeOtherEntity)
-            //        .WithMany()
-            //        .HasForeignKey(c => c.SomeForeignKey);
+            // Связь "Один-ко-многим" между Car и CarImage
+            builder.HasMany(c => c.CarImages)
+                .WithOne(ci => ci.Car)
+                .HasForeignKey(ci => ci.CarId)
+                .OnDelete(DeleteBehavior.Cascade); // Каскадное удаление
         }
     }
 }

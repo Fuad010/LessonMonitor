@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7MNzYmA00kpzZ/K0of4Ufj0/J1B5iHFILN0uAznrGmBrS/RwNbf1e+H2wV8yIV6wQS/fGQSYsALYsZ7QfvwvKw==",
+  "dgSpecHash": "45dxWdn2/dQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.API\\LessonMonitor.API.csproj",
+  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.API\\LessonMonitor.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dezhu\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

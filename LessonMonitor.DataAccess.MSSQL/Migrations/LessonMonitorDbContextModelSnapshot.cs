@@ -34,6 +34,66 @@ namespace LessonMonitor.DataAccess.MSSQL.Migrations
                     b.ToTable("HomeworkMember");
                 });
 
+            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.Car", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("IsAvailable")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Make")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Model")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<decimal>("PricePerDay")
+                        .HasPrecision(18, 4)
+                        .HasColumnType("decimal(18,4)");
+
+                    b.Property<int>("Year")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Make");
+
+                    b.ToTable("Cars");
+                });
+
+            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.CarImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CarId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarId");
+
+                    b.ToTable("CarImages");
+                });
+
             modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.GithubAccount", b =>
                 {
                     b.Property<Guid>("Id")
@@ -52,6 +112,9 @@ namespace LessonMonitor.DataAccess.MSSQL.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MemberId")
+                        .IsUnique();
 
                     b.ToTable("GithubAccounts");
                 });
@@ -123,9 +186,6 @@ namespace LessonMonitor.DataAccess.MSSQL.Migrations
                     b.Property<Guid?>("GithubAccountId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("GithubAccountMemberId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
@@ -135,9 +195,6 @@ namespace LessonMonitor.DataAccess.MSSQL.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("GithubAccountMemberId")
-                        .IsUnique();
 
                     b.ToTable("Members");
                 });
@@ -157,6 +214,28 @@ namespace LessonMonitor.DataAccess.MSSQL.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.CarImage", b =>
+                {
+                    b.HasOne("LessonMonitor.DataAccess.MSSQL.Entities.Car", "Car")
+                        .WithMany("CarImages")
+                        .HasForeignKey("CarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Car");
+                });
+
+            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.GithubAccount", b =>
+                {
+                    b.HasOne("LessonMonitor.DataAccess.MSSQL.Entities.Member", "Member")
+                        .WithOne("GithubAccount")
+                        .HasForeignKey("LessonMonitor.DataAccess.MSSQL.Entities.GithubAccount", "MemberId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Member");
+                });
+
             modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.Lesson", b =>
                 {
                     b.HasOne("LessonMonitor.DataAccess.MSSQL.Entities.Homework", "Homework")
@@ -169,26 +248,19 @@ namespace LessonMonitor.DataAccess.MSSQL.Migrations
                     b.Navigation("Homework");
                 });
 
-            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.Member", b =>
+            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.Car", b =>
                 {
-                    b.HasOne("LessonMonitor.DataAccess.MSSQL.Entities.GithubAccount", "GithubAccount")
-                        .WithOne("Member")
-                        .HasForeignKey("LessonMonitor.DataAccess.MSSQL.Entities.Member", "GithubAccountMemberId")
-                        .HasPrincipalKey("LessonMonitor.DataAccess.MSSQL.Entities.GithubAccount", "MemberId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("GithubAccount");
-                });
-
-            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.GithubAccount", b =>
-                {
-                    b.Navigation("Member");
+                    b.Navigation("CarImages");
                 });
 
             modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.Homework", b =>
                 {
                     b.Navigation("Lesson");
+                });
+
+            modelBuilder.Entity("LessonMonitor.DataAccess.MSSQL.Entities.Member", b =>
+                {
+                    b.Navigation("GithubAccount");
                 });
 #pragma warning restore 612, 618
         }

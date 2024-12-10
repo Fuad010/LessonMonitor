@@ -11,10 +11,12 @@ namespace LessonMonitor.BusinessLogic
     public class CarsService : ICarsService
     {
         private readonly ICarsRepository _carsRepository;
+
         public CarsService(ICarsRepository carsRepository)
         {
             _carsRepository = carsRepository;
         }
+
         public async Task<List<Car>> GetAllCarsAsync()
         {
             return await _carsRepository.GetAllCarsAsync();
@@ -25,7 +27,7 @@ namespace LessonMonitor.BusinessLogic
         }
         public async Task AddCarAsync(Car car)
         {
-            await _carsRepository.AddCarAsync(car);
+           await _carsRepository.AddCarAsync(car);
         }
         public async Task DeleteCarAsync(int id)
         {

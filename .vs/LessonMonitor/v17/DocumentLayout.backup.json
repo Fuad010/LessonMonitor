@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.dataaccess.mssql\\configurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|solutionrelative:lessonmonitor.dataaccess.mssql\\configurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.dataaccess.mssql\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|solutionrelative:lessonmonitor.dataaccess.mssql\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538A085C-F086-4FA5-B99B-C70708EB8FC2}|LessonMonitor.Core\\LessonMonitor.Core.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.core\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538A085C-F086-4FA5-B99B-C70708EB8FC2}|LessonMonitor.Core\\LessonMonitor.Core.csproj|solutionrelative:lessonmonitor.core\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538A085C-F086-4FA5-B99B-C70708EB8FC2}|LessonMonitor.Core\\LessonMonitor.Core.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.core\\carimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538A085C-F086-4FA5-B99B-C70708EB8FC2}|LessonMonitor.Core\\LessonMonitor.Core.csproj|solutionrelative:lessonmonitor.core\\carimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.dataaccess.mssql\\entities\\carimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|solutionrelative:lessonmonitor.dataaccess.mssql\\entities\\carimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.dataaccess.mssql\\configurations\\carimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|solutionrelative:lessonmonitor.dataaccess.mssql\\configurations\\carimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|c:\\users\\dezhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\lessonmonitor\\lessonmonitor.dataaccess.mssql\\lessonmonitordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1448C9F2-A9C0-4E81-9753-F04C56364269}|LessonMonitor.DataAccess.MSSQL\\LessonMonitor.DataAccess.MSSQL.csproj|solutionrelative:lessonmonitor.dataaccess.mssql\\lessonmonitordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 214,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.DataAccess.MSSQL\\Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Entities\\Car.cs*",
+              "RelativeToolTip": "LessonMonitor.DataAccess.MSSQL\\Entities\\Car.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:06:59.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarImageConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Configurations\\CarImageConfiguration.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.DataAccess.MSSQL\\Configurations\\CarImageConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Configurations\\CarImageConfiguration.cs*",
+              "RelativeToolTip": "LessonMonitor.DataAccess.MSSQL\\Configurations\\CarImageConfiguration.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:00:27.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Configurations\\CarConfiguration.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.DataAccess.MSSQL\\Configurations\\CarConfiguration.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Configurations\\CarConfiguration.cs*",
+              "RelativeToolTip": "LessonMonitor.DataAccess.MSSQL\\Configurations\\CarConfiguration.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvzIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:57:37.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarImage.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Entities\\CarImage.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.DataAccess.MSSQL\\Entities\\CarImage.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\Entities\\CarImage.cs*",
+              "RelativeToolTip": "LessonMonitor.DataAccess.MSSQL\\Entities\\CarImage.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:53:57.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.Core\\Car.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.Core\\Car.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.Core\\Car.cs*",
+              "RelativeToolTip": "LessonMonitor.Core\\Car.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:50:44.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LessonMonitorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitorDbContext.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.DataAccess.MSSQL\\LessonMonitorDbContext.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.DataAccess.MSSQL\\LessonMonitorDbContext.cs*",
+              "RelativeToolTip": "LessonMonitor.DataAccess.MSSQL\\LessonMonitorDbContext.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:49:40.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarImage.cs",
+              "DocumentMoniker": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.Core\\CarImage.cs",
+              "RelativeDocumentMoniker": "LessonMonitor.Core\\CarImage.cs",
+              "ToolTip": "C:\\Users\\dezhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\.net api\\LessonMonitor\\LessonMonitor.Core\\CarImage.cs*",
+              "RelativeToolTip": "LessonMonitor.Core\\CarImage.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:48:05.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 214,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yQf7Di9d4Cmv9PGypRwK6I0176uB75iZCaqsQfFq/GFw4i7V9G2w8zozSaU5pxMFEpkKfkVFhPjma/APQCsydg==",
+  "dgSpecHash": "CKRQelqxc70=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor\\LessonMonitor.BusinessLogic.XTests\\LessonMonitor.BusinessLogic.XTests.csproj",
+  "projectFilePath": "C:\\Users\\dezhu\\OneDrive\\Рабочий стол\\.net api\\LessonMonitor\\LessonMonitor.BusinessLogic.XTests\\LessonMonitor.BusinessLogic.XTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dezhu\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\dezhu\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
