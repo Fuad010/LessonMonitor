@@ -12,6 +12,6 @@ namespace LessonMonitor.DataAccess.MSSQL.Entities
         public int Year { get; set; }
         public decimal PricePerDay { get; set; }
         public bool IsAvailable { get; set; }
-        public ICollection<CarImage> CarImages { get; set; } = new List<CarImage>();
+        public ICollection<CarImage> CarImages { get; set; } = null;
     }
 }

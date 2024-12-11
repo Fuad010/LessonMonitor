@@ -26,7 +26,13 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
                 Model = car.Model,
                 Year = car.Year,
                 PricePerDay = car.PricePerDay,
-                IsAvailable = car.IsAvailable
+                IsAvailable = car.IsAvailable,
+                CarImages = car.CarImages?.Select(img => new Entities.CarImage
+                {
+                    Id = img.Id,
+                    ImageUrl = img.ImageUrl,
+                    CarId = car.Id
+                }).ToList()
             };
             await _context.Cars.AddAsync(entityCar);
             await _context.SaveChangesAsync();
@@ -34,9 +40,13 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
 
         public async Task DeleteCarAsync(int id)
         {
-            var car = await _context.Cars.FindAsync(id);
+            var car = await _context.Cars
+              .Include(c => c.CarImages)
+              .FirstOrDefaultAsync(c => c.Id == id);
+
             if (car != null)
             {
+                _context.CarImages.RemoveRange(car.CarImages); 
                 _context.Cars.Remove(car);
                 await _context.SaveChangesAsync();
             }
@@ -44,7 +54,9 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
 
         public async Task<List<Car>> GetAllCarsAsync()
         {
-            var entityCars = await _context.Cars.ToListAsync();
+            var entityCars = await _context.Cars
+                .Include(car => car.CarImages) 
+                .ToListAsync();
 
             var coreCars = entityCars.Select(car => new Car
             {
@@ -53,7 +65,13 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
                 Model = car.Model,
                 Year = car.Year,
                 PricePerDay = car.PricePerDay,
-                IsAvailable = car.IsAvailable
+                IsAvailable = car.IsAvailable,
+                CarImages = car.CarImages?.Select(img => new Core.CarImage
+                {
+                    Id = img.Id,
+                    ImageUrl = img.ImageUrl,
+                    CarId = img.CarId
+                }).ToList()
             }).ToList();
 
             return coreCars;
@@ -61,9 +79,11 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
 
         public async Task<Car> GetCarByIdAsync(int id)
         {
-            var entityCar = await _context.Cars.FindAsync(id);
-        
-            if(entityCar == null)
+            var entityCar = await _context.Cars
+               .Include(car => car.CarImages) 
+               .FirstOrDefaultAsync(car => car.Id == id);
+
+            if (entityCar == null)
             {
                 return null;
             }
@@ -75,13 +95,21 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
                 Model = entityCar.Model,
                 Year = entityCar.Year,
                 PricePerDay = entityCar.PricePerDay,
-                IsAvailable = entityCar.IsAvailable
+                IsAvailable = entityCar.IsAvailable,
+                CarImages = entityCar.CarImages?.Select(img => new Core.CarImage
+                {
+                    Id = img.Id,
+                    ImageUrl = img.ImageUrl,
+                    CarId = img.CarId
+                }).ToList()
             };
         }
 
         public async Task UpdateCarAsync(Car car)
         {
-            var entityCar = await _context.Cars.FindAsync(car.Id);
+            var entityCar = await _context.Cars
+                .Include(c => c.CarImages) 
+                .FirstOrDefaultAsync(c => c.Id == car.Id);
 
             if (entityCar == null)
             {
@@ -95,6 +123,14 @@ namespace LessonMonitor.DataAccess.MSSQL.Repositories
             entityCar.IsAvailable = car.IsAvailable;
 
             _context.Cars.Add(entityCar);
+
+            entityCar.CarImages = car.CarImages?.Select(img => new Entities.CarImage
+            {
+                Id = img.Id,
+                ImageUrl = img.ImageUrl,
+                CarId = car.Id
+            }).ToList();
+
             await _context.SaveChangesAsync();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LessonMonitor.API.Contracts
 {
@@ -10,5 +11,6 @@ namespace LessonMonitor.API.Contracts
         public int Year { get; set; }
         public decimal PricePerDay { get; set; }
         public bool IsAvailable { get; set; }
+        public ICollection<CarImage> CarImages { get; set; } = null;
     }
 }

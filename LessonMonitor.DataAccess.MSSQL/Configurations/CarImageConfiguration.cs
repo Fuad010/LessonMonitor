@@ -8,25 +8,21 @@ namespace LessonMonitor.DataAccess.MSSQL.Configurations
     {
         public void Configure(EntityTypeBuilder<CarImage> builder)
         {
-            // Указание имени таблицы
             builder.ToTable("CarImages");
 
-            // Первичный ключ
             builder.HasKey(ci => ci.Id);
 
-            // Конфигурация свойств
             builder.Property(ci => ci.Id)
                 .IsRequired()
                 .ValueGeneratedOnAdd();
 
             builder.Property(ci => ci.ImageUrl)
                 .IsRequired()
-                .HasMaxLength(500); // Максимальная длина для URL
+                .HasMaxLength(500); 
 
             builder.Property(ci => ci.CarId)
                 .IsRequired();
 
-            // Индексы
             builder.HasIndex(ci => ci.CarId);
         }
     }

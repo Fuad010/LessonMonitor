@@ -8,13 +8,10 @@ namespace LessonMonitor.DataAccess.MSSQL.Configurations
     {
         public void Configure(EntityTypeBuilder<Car> builder)
         {
-            // Указание имени таблицы
             builder.ToTable("Cars");
 
-            // Первичный ключ
             builder.HasKey(c => c.Id);
 
-            // Конфигурация свойств
             builder.Property(c => c.Id)
                 .IsRequired()
                 .ValueGeneratedOnAdd();
@@ -39,14 +36,12 @@ namespace LessonMonitor.DataAccess.MSSQL.Configurations
                 .IsRequired()
                 .HasDefaultValue(false);
 
-            // Индексы
             builder.HasIndex(c => c.Make);
 
-            // Связь "Один-ко-многим" между Car и CarImage
             builder.HasMany(c => c.CarImages)
                 .WithOne(ci => ci.Car)
                 .HasForeignKey(ci => ci.CarId)
-                .OnDelete(DeleteBehavior.Cascade); // Каскадное удаление
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
